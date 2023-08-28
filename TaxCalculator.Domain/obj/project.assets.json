@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\TestProject\\TaxCalculator\\TaxCalculator.Domain\\TaxCalculator.Domain.csproj",
+      "projectUniqueName": "C:\\Dev\\Test\\TaxCalculator\\TaxCalculator.Domain\\TaxCalculator.Domain.csproj",
       "projectName": "TaxCalculator.Domain",
-      "projectPath": "C:\\Dev\\TestProject\\TaxCalculator\\TaxCalculator.Domain\\TaxCalculator.Domain.csproj",
+      "projectPath": "C:\\Dev\\Test\\TaxCalculator\\TaxCalculator.Domain\\TaxCalculator.Domain.csproj",
       "packagesPath": "C:\\Users\\vbmus\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\TestProject\\TaxCalculator\\TaxCalculator.Domain\\obj\\",
+      "outputPath": "C:\\Dev\\Test\\TaxCalculator\\TaxCalculator.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

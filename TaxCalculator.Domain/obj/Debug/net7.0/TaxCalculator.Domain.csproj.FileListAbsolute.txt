@@ -10,3 +10,15 @@ C:\Dev\TestProject\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalcul
 C:\Dev\TestProject\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\refint\TaxCalculator.Domain.dll
 C:\Dev\TestProject\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.pdb
 C:\Dev\TestProject\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\ref\TaxCalculator.Domain.dll
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\bin\Debug\net7.0\TaxCalculator.Domain.deps.json
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\bin\Debug\net7.0\TaxCalculator.Domain.dll
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\bin\Debug\net7.0\TaxCalculator.Domain.pdb
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.csproj.AssemblyReference.cache
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.AssemblyInfoInputs.cache
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.AssemblyInfo.cs
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.dll
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\refint\TaxCalculator.Domain.dll
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\TaxCalculator.Domain.pdb
+C:\Dev\Test\TaxCalculator\TaxCalculator.Domain\obj\Debug\net7.0\ref\TaxCalculator.Domain.dll

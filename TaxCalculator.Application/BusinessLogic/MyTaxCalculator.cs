@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TaxCalculator.Domain.Entities;
 using TaxCalculator.Domain.Interfaces;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TaxCalculator.Application.BusinessLogic
 {
@@ -72,16 +73,15 @@ namespace TaxCalculator.Application.BusinessLogic
                 totalTax += (171550 - 82250) * 0.28;
 
                 totalTax += (372950 - 171550) * 0.33;
-
                 totalTax += (annualIncome - 372950) * 0.35;
 
             }
-            return totalTax;
+            return Math.Round(totalTax, 2);
         }
         public double FlatValueTax(double annualIncome)
         {
             if (annualIncome < 200000)
-                return annualIncome * 0.05;
+                return Math.Round(annualIncome * 0.05,2);
 
             else
                 return 10000;
@@ -89,7 +89,7 @@ namespace TaxCalculator.Application.BusinessLogic
         }
         public double FlatRateTax(double annualIncome)
         {
-            return annualIncome * 0.175;
+            return Math.Round(annualIncome * 0.175, 2);
         }
     }
 }

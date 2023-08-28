@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Pal9k96b3+LNRE0aiTUuqgJ+dixIhU0OqYOxJtPe+HHu1qOb9glR86XcCF7SpPEiDChRsXHLPWPj7D9tJrbxQ==",
+  "dgSpecHash": "PaMoPfD5vTxPMf6TzrHdzCYXiK1C61Oaz5KcerklgN+Z8AUMjxKsHmGAyTtciQSidJPGdMzbQbVCIy82Ap/yyw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\TestProject\\TaxCalculator\\TaxCalculator.Frontend\\TaxCalculator.Frontend.csproj",
+  "projectFilePath": "C:\\Dev\\Test\\TaxCalculator\\TaxCalculator.Frontend\\TaxCalculator.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vbmus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vbmus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

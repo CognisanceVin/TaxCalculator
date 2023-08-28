@@ -22,7 +22,7 @@
                 @Html.DropDownListFor(model => model.PostalCode, Model.Codes, new { @class = "form-control" })
 
             </fieldset>
-
+            <div id="showresults"></div>
             <div class="btnDiv">
                 <button class="btn btn-primary" onclick="onSubmit()">Calculate Tax</button>
             </div>
@@ -30,11 +30,6 @@
         </div>
     </form>
 
-    @{
-        var data = (String)TempData["Message"];
-    }
-
-    <h4>@data</h4>
 </div>
 
 <script type="text/javascript">
@@ -60,12 +55,10 @@
             contentType: 'application/json; charset=utf-8', 
             data: JSON.stringify(model),
             success: function (result) {
-                alert('Your calculated tax is ' + result);
-                console.log(result);
+                $('#showresults').html('Your calculated tax is R' + result);
             },
             error: function () {
-                alert('Failed to receive the Data');
-                console.log('Failed ');
+                $('#showresults').html('Failed to calculate tax amount. Please try again.');
             }
         })
 
