@@ -1,0 +1,74 @@
+﻿@model TaxCalculator.Frontend.Models.TaxModel
+
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<div class="wrapper">
+    <h1 class="display-4">Welcome to PaySpace Online Tax Calculator</h1>
+    <form id="SaveDataForm" class="please" method="post">
+        @Html.AntiForgeryToken()
+        <div class="DownloadFormCan">
+            @Html.ValidationSummary(false, "The following fields are required", new { @class = "validation-summary" })
+
+            <fieldset>
+                @Html.TextBoxFor(model => model.AnnualIncome, "", new { @placeholder = "Enter your annual income", @class = "form-control", @type = "number", @min = 0 })
+
+            </fieldset>
+            <fieldset>
+                @Html.DropDownListFor(model => model.PostalCode, Model.Codes, new { @class = "form-control" })
+
+            </fieldset>
+
+            <div class="btnDiv">
+                <button class="btn btn-primary" onclick="onSubmit()">Calculate Tax</button>
+            </div>
+
+        </div>
+    </form>
+
+    @{
+        var data = (String)TempData["Message"];
+    }
+
+    <h4>@data</h4>
+</div>
+
+<script type="text/javascript">
+ 
+
+    $("#SaveDataForm").submit(function (e) {
+        e.preventDefault();
+    });
+
+
+    function onSubmit()
+    {
+        
+        var model = {
+            AnnualIncome: $("#AnnualIncome").val(),
+            PostalCode: $("#PostalCode").val()
+        };
+
+        var postData = "{postalCode:'" + $("#PostalCode").val() + "', income:" + $("#AnnualIncome").val() + "}";
+        $.ajax({
+            type: 'POST',
+            url: '/Home/SaveForm',
+            contentType: 'application/json; charset=utf-8', 
+            data: JSON.stringify(model),
+            success: function (result) {
+                alert('Your calculated tax is ' + result);
+                console.log(result);
+            },
+            error: function () {
+                alert('Failed to receive the Data');
+                console.log('Failed ');
+            }
+        })
+
+    
+    }
+</script>
